@@ -9,7 +9,7 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import com.sclee.android.hellolib.DoNothingUtils;
+import com.sclee.android.hellolib.HelloAndroidLibrary;
 import com.sclee.hello.HelloWorld;
 
 public class MainActivity extends AppCompatActivity {
@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         // Use hello-android-library
-        DoNothingUtils.doNothing();
+        HelloAndroidLibrary.doNothing();
     }
 
     @Override
