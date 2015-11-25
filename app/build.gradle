@@ -34,4 +34,5 @@ dependencies {
     compile 'com.android.support:design:22.2.1'
     compile project(':hello-java-library')
     compile project(':hello-android-library')
+    compile project(':hello-jni')
 }
