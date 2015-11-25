@@ -13,6 +13,10 @@ model {
         }
     }
 
+    android.ndk {
+        moduleName = "hello-jni"
+    }
+
     android.buildTypes {
         release {
             minifyEnabled = false
