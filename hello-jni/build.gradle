@@ -1,4 +1,4 @@
-apply plugin: 'com.android.model.application'
+apply plugin: 'com.android.model.library'
 
 model {
     android {
@@ -6,12 +6,15 @@ model {
         buildToolsVersion = "22.0.1"
 
         defaultConfig.with {
-            applicationId = "com.sclee.android.hello"
             minSdkVersion.apiLevel = 16
             targetSdkVersion.apiLevel = 22
             versionCode = 1
             versionName = "1.0"
         }
+    }
+
+    android.ndk {
+        moduleName = "hello-jni"
     }
 
     android.buildTypes {
@@ -31,8 +34,4 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:22.2.1'
-    compile 'com.android.support:design:22.2.1'
-    compile project(':hello-java-library')
-    compile project(':hello-android-library')
-    compile project(':hello-jni')
 }

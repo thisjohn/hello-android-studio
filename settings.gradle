@@ -1,1 +1,1 @@
-include ':app', ':hello-java-library', ':hello-android-library'
+include ':app', ':hello-java-library', ':hello-android-library', ':hello-jni'
