@@ -9,6 +9,7 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.sclee.android.hellolib.DoNothingUtils;
 import com.sclee.hello.HelloWorld;
 
 public class MainActivity extends AppCompatActivity {
@@ -20,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+        // Use hello-java-library
         final String message = HelloWorld.hello("sclee");
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
@@ -30,6 +32,9 @@ public class MainActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+
+        // Use hello-android-library
+        DoNothingUtils.doNothing();
     }
 
     @Override
