@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/hello-android-library/hello-android-library.iml" filepath="$PROJECT_DIR$/hello-android-library/hello-android-library.iml" />
       <module fileurl="file://$PROJECT_DIR$/hello-android-studio.iml" filepath="$PROJECT_DIR$/hello-android-studio.iml" />
       <module fileurl="file://$PROJECT_DIR$/hello-java-library/hello-java-library.iml" filepath="$PROJECT_DIR$/hello-java-library/hello-java-library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hello-jni/hello-jni.iml" filepath="$PROJECT_DIR$/hello-jni/hello-jni.iml" />
     </modules>
   </component>
 </project>

@@ -13,6 +13,7 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/hello-android-library" />
             <option value="$PROJECT_DIR$/hello-java-library" />
+            <option value="$PROJECT_DIR$/hello-jni" />
           </set>
         </option>
       </GradleProjectSettings>
