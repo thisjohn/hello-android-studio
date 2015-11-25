@@ -10,7 +10,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import com.sclee.android.hellolib.HelloAndroidLibrary;
-import com.sclee.hello.HelloWorld;
+import com.sclee.hello.HelloJavaLibrary;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         // Use hello-java-library
-        final String message = HelloWorld.hello("sclee");
+        final String message = HelloJavaLibrary.hello("sclee");
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
